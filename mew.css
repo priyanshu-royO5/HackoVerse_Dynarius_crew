@@ -1,0 +1,425 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+* {
+    /* padding: 0; */
+    scroll-behavior: smooth;
+    transition: all 500ms;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(38, 30, 30);
+    padding: 7px 2em;
+}
+
+.nav_right img {
+    border-radius: 50%;
+    width: 5em;
+}
+
+.nav_left a {
+    margin: 0 2em;
+    font-size: 1.1em;
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav_left a::after {
+    content: " ";
+    bottom: -5px;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.nav_left a:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.main_img {
+    position: relative;
+    background-image: url(All-female\ mine\ rescue\ team\ nabs\ People’s\ Choice\ award\ at\ international\ competition.jpeg);
+    background-size: cover;
+    background-position: 70%;
+    /* opacity: 50%; */
+    width: 100%;
+    height: 38em;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+.main_img2 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 70%;
+    top: 0;
+}
+
+.line1 {
+    position: inherit;
+    font-size: 1.8em;
+    margin-left: 3em;
+    color: aliceblue;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.line1 span {
+    font-size: 2.1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* offer part */
+.offer{
+    margin: 0 15em;
+}
+.offer>p{
+    font-size: 2.3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0.4em 0;
+}
+.offer ul{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.disaster{
+    margin: 0 4em;
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 5em;
+}
+.dis1,.dis2{
+    /* padding: 2em; */
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 1.5em;
+    justify-content: center;
+}
+.dis1{
+    color: white;
+    width: 12em;
+    background-color:darkblue;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+.dis2{
+    font-size: 1.2em;
+    background-color: antiquewhite;
+}
+
+
+.types{
+    background-color: aliceblue;
+    padding: 1em 5em;
+}
+.headingtyp{
+    background-color: darkblue;
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.3em;
+    position: relative;
+    top: -1.5em;
+    color: white;
+}
+
+.typ1{
+    display: flex;
+    position: relative;
+    padding: 3em;
+}
+
+.naturalimg{
+    background-image: url(WhatsApp\ Image\ 2024-04-20\ at\ 10.23.22_a2d137e1.jpg);
+    width: 88vw;
+    height: 40vh;
+}
+.naturalimg3{
+    background-image: url(pand.jpg);
+    width: 88vw;
+    height: 40vh;
+}
+
+.naturalimg2{
+    background-image: url(WhatsApp\ Image\ 2024-04-20\ at\ 10.59.47_b0642ee7.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 88vw;
+    height: 40vh;
+}
+
+.naturaltxt{
+    display: flex;
+    width: 100%;
+    position: relative;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 2em 1.5em;
+    background-color:antiquewhite;
+}
+
+.txt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.7em;
+    color: #000C66;
+}
+.txt2{
+    padding: 2em 0;
+    font-size:1.2em;
+}
+
+.read{
+    position: absolute;
+    bottom: -0.9em;
+    background-color: blue;
+    color: white;
+    padding: 0.51em;
+    right: 1em;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+.foot {
+    margin: 6em 14em 0 14em;
+    padding: 1em 0;
+}
+
+.footleft img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footright button {
+    padding: 7px 10px;
+    font-size: 1.1rem;
+    color: rgb(28, 28, 28);
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.footright button i {
+    font-size: 0.8rem;
+}
+
+.footright img {
+    width: 20px;
+    padding: 0 5px;
+}
+
+.lowerdiv {
+    display: flex;
+    margin: 0 12em;
+    justify-content: space-around;
+}
+
+.aboutzom {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 2em;
+}
+
+.aboutzom d {
+    font-size: 0.9em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.aboutzom ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutzom li {
+    padding: 5px 0;
+}
+
+.aboutzom a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.zomaverse {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.zomaverse d {
+    font-size: 0.9em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.zomaverse ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.zomaverse li {
+    padding: 5px 0;
+}
+
+.zomaverse a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.forrestaurants {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.forrestaurants d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.forrestaurants ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.forrestaurants li {
+    padding: 5px 0;
+}
+
+.forrestaurants a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.nd {
+    margin-top: 1.8em;
+}
+
+.learnmore {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.learnmore d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.learnmore ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.learnmore li {
+    padding: 5px 0;
+}
+
+.learnmore a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.social {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 2em;
+    margin-left: 5em
+}
+
+.social d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* .links {
+    display: flex;
+} */
+
+.links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.border {
+    border-radius: 5%;
+}
+
+/* width: 140px;
+    height: 40px; */
+
+.downlink {
+    display: flex;
+    flex-direction: column;
+}
+
+.downlink img {
+    width: 140px;
+    height: 40px;
+}
+
+.mar {
+    width: 1100px;
+    margin-top: 1.4rem;
+}
+
+/* footer {
+    font-size: 0.9rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.4rem;
+    margin-top: 1.8rem;
+    margin-left: 220px;
+    width: 1100px;
+} */

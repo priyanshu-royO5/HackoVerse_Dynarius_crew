@@ -1,0 +1,208 @@
+.foot {
+    margin: 6em 14em 0 14em;
+    padding: 2em 0;
+}
+
+.footleft img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footright button {
+    padding: 7px 10px;
+    font-size: 1.1rem;
+    color: rgb(28, 28, 28);
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.footright button i {
+    font-size: 0.8rem;
+}
+
+.footright img {
+    width: 20px;
+    padding: 0 5px;
+}
+
+.lowerdiv {
+    display: flex;
+    margin: 0 12em;
+    justify-content: space-around;
+}
+
+.aboutzom {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4em;
+}
+
+.aboutzom d {
+    font-size: 0.9em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.aboutzom ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutzom li {
+    padding: 5px 0;
+}
+
+.aboutzom a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.zomaverse {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4em;
+    margin-left: 5em;
+}
+
+.zomaverse d {
+    font-size: 0.9em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.zomaverse ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.zomaverse li {
+    padding: 5px 0;
+}
+
+.zomaverse a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.forrestaurants {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4em;
+    margin-left: 5em;
+}
+
+.forrestaurants d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.forrestaurants ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.forrestaurants li {
+    padding: 5px 0;
+}
+
+.forrestaurants a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.nd {
+    margin-top: 1.8em;
+}
+
+.learnmore {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4em;
+    margin-left: 5em;
+}
+
+.learnmore d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.learnmore ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.learnmore li {
+    padding: 5px 0;
+}
+
+.learnmore a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(105, 105, 105);
+}
+
+.social {
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4em;
+    margin-left: 5em
+}
+
+.social d {
+    font-size: 0.9 em;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* .links {
+    display: flex;
+} */
+
+.links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.border {
+    border-radius: 5%;
+}
+
+/* width: 140px;
+    height: 40px; */
+
+.downlink {
+    display: flex;
+    flex-direction: column;
+}
+
+.downlink img {
+    width: 140px;
+    height: 40px;
+}
+
+.mar {
+    width: 1100px;
+    margin-top: 1.4rem;
+}
